@@ -188,7 +188,7 @@ flushall: 1
             end
 
             res, err = db:set("dog", "an aniaml")
-            if not ok then
+            if not res then
                 ngx.say("failed to set dog: ", err)
                 return
             end

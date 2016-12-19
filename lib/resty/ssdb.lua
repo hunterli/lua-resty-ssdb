@@ -1,7 +1,3 @@
--- vim:set ft= ts=4 sw=4 et:
--- Copyright (C) Yichun Zhang (agentzh)
-
-
 local tcp = ngx.socket.tcp
 local null = ngx.null
 local type = type
